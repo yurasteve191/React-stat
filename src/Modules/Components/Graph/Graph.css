@@ -1,0 +1,42 @@
+.graph-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+    width: 550px;
+    background: #a6c285;
+    content: none;
+}
+
+/* COLUMN */
+.column-blank{
+    position: relative;
+    flex-grow: 1;
+    margin: 1px;
+    height: 100%;
+    content: none;
+    /* background-color: blueviolet; */
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    /* top: 100px; */
+    height: 20px;
+    width: 100%;
+    box-shadow: -5px 0px rgba(0,0,0,.1);
+    content: none;
+    background-color: red;
+    transition: 0.6s;
+}
+
+.column-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    content: none;
+    color: white;
+}
